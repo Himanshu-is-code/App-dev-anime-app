@@ -1,1 +1,1 @@
-App devlopment experiments
+App devlopment MINI PROJECT
