@@ -2,7 +2,7 @@ import { initializeApp, getApp, getApps } from "firebase/app";
 import { getAuth, initializeAuth, type Auth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB56gLLlWHOKQnDCY0Fuo7eLVmrZaawseE",
+  apiKey: ,
   authDomain: "my-anime-app-59b31.firebaseapp.com",
   projectId: "my-anime-app-59b31",
   storageBucket: "my-anime-app-59b31.firebasestorage.app",
@@ -37,5 +37,6 @@ try {
 }
 
 const typedAuth: Auth = auth;
+
 
 export { app, typedAuth as auth };
